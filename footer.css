@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2;
+    background: rgba(17, 20, 20, 0.98);
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #ffffff96;
+}
+
+.content {
+    margin: 2em;
+    font-size: 21px;
+}
+
+.grid-elements {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 4em 2em 2em;
+}
+
+.element {
+    width: 100%;
+}
+
+.element h2 {
+    color: #fff;
+    padding-left: 1em;
+}
+
+.element hr {
+    color: #ffffff96;
+    margin-bottom: 2em;
+}
+
+.element .content-text {
+    padding: 0 2em;
+}
+
+.element p {
+    padding: 5px;
+}
+
+.element a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.element .links {
+    padding-left: 4em;
+}
+
+.element .links a {
+    padding-left: 16px;
+}
+
+.element span {
+    text-align: end;
+    padding: 2em;
+}
+
+footer input[type=email] {
+    padding: 10px;
+    font-size: 14px;
+    width: 150px;
+    border: none;
+    border-radius: 0;
+    background: rgba(204, 204, 204, 0.238);
+    margin: 0;
+}
+
+footer input[type=button] {
+    padding: 10px 15px;
+    font-size: 16px;
+    margin-left: 2em;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+footer input[type=button]:hover {
+    cursor: pointer;
+}
+
+.element:last-child .content-text {
+    padding-right: 0;
+}
+
+footer .policy-link{
+    color: red;
+    padding-top: 15px;
+}
+
+.footer-bottom {
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom span {
+    color: #004cff;
+}
+
+footer .up-button {
+    float: right;
+    border-radius: 50%;
+    background-color: red;
+    margin: -2em 4em;
+}
+
+footer .up-button img {
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+}
